@@ -9,7 +9,7 @@ class Playlist extends React.Component {
     }
 
     handleNameChange(event) {
-        this.props.onNameChange(event.target.value)
+        this.props.onNameChange(event.target.value);
     }
     
     render() {
