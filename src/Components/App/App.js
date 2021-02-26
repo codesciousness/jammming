@@ -53,6 +53,10 @@ class App extends React.Component {
     this.setState({searchResults: newSearchResults});
   }
 
+  componentDidMount() {
+    window.onload = () => Spotify.getAccessToken();
+  }
+
   render() {
     return (
       <div>
