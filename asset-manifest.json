@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/jammming/static/css/main.5ee6df7e.chunk.css",
-    "main.js": "/jammming/static/js/main.a1cb4ae5.chunk.js",
-    "main.js.map": "/jammming/static/js/main.a1cb4ae5.chunk.js.map",
+    "main.js": "/jammming/static/js/main.4a9fef0a.chunk.js",
+    "main.js.map": "/jammming/static/js/main.4a9fef0a.chunk.js.map",
     "runtime-main.js": "/jammming/static/js/runtime-main.d3cd0dbe.js",
     "runtime-main.js.map": "/jammming/static/js/runtime-main.d3cd0dbe.js.map",
     "static/js/2.6bcc3788.chunk.js": "/jammming/static/js/2.6bcc3788.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.d3cd0dbe.js",
     "static/js/2.6bcc3788.chunk.js",
     "static/css/main.5ee6df7e.chunk.css",
-    "static/js/main.a1cb4ae5.chunk.js"
+    "static/js/main.4a9fef0a.chunk.js"
   ]
 }
