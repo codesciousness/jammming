@@ -28,8 +28,9 @@ class Track extends React.Component {
     render() {
         return (
             <div className="Track">
+                <img src={this.props.track.image} alt="Album Art" />
                 <div className="Track-information">
-                    <h3>{this.props.track.name}</h3>
+                    <a href={this.props.track.preview} target="_blank" rel="noreferrer"><h3>{this.props.track.name}</h3></a>
                     <p>{this.props.track.artist} | {this.props.track.album}</p>
                 </div>
                 {this.renderAction()}

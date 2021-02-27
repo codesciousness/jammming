@@ -24,6 +24,7 @@
     flex-direction: column;
     justify-content: center;
     height: 72px;
+    margin: .5rem;
 }
 
 .Track-information h3 {
@@ -34,4 +35,12 @@
     font-size: .83rem;
     font-weight: 300;
     color: rgba(256, 256, 256, 0.8);
+}
+
+.Track-information a:link {
+    color: #6c41ec;
+}
+
+.Track-information a:link:hover {
+    color: orange;
 }

@@ -50,4 +50,4 @@ This project was created with:
 
 ## Status
 
-This project is in progress.
+This project has been completed.

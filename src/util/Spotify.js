@@ -1,5 +1,5 @@
 const clientId = '2440db0c6fd64a218ccdfa355378748a';
-const redirectUri = 'http://mycodefolio.com/jammming';
+const redirectUri = 'http://mycodefolio.com/jammming'; // Local: 'http://localhost:3000/'
 let accessToken;
 
 const Spotify = {
@@ -39,7 +39,9 @@ const Spotify = {
                         name: track.name,
                         artist: track.artists[0].name,
                         album: track.album.name,
-                        uri: track.uri
+                        image: track.album.images[2].url,
+                        uri: track.uri,
+                        preview: track.preview_url
                     }
                 })
             }
